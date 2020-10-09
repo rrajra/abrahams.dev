@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html id="anchTop" lang="en">
+<head>
+	<title>Matthew Abrahams</title>
+	<meta charset="utf-8">
+	<meta name="description" content="My portfolio">
+	<meta name="author" content="Matthew Abrahams">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="icon" 
+      type="image/svg" 
+      href="images/svg/person.svg">
+</head>
+<body>
+	<!-- 
+	Hello and welcome to my website
+	I wrote it entirely myself         
+	Contact me: Matthew Abrahams       
+	Phone 951-694-2391                 
+	Email: MatthewAbrahams14@gmail.com 
+	-->
+	
+	<section class="hero">
+		<div class="hero-image">
+	  		<div class="hero-text">
+	  			<h1>Hi, I'm Matt!</h1>
+	  			<button class="btn" onclick="location.href='#anchAboutMe'" id="heroBtn">Learn More</button>
+	  		</div>
+		</div>
+	</section>
+
+	<div class="navBlur" id="blurMenu">
+		<a href="#anchTop" id="homeBlur">Home</a>
+		<a href="#mobile_anchPic">About Me</a>
+		<a href="#anchProducts">Products</a>
+		<p id="nameBlur">Matthew Abrahams</p>
+	</div>
+
+	<div class="menuBar">
+		<ul>
+			<div class="desktop">
+			<li id="menuHome">
+				<a href="#anchTop" class="menuA">Home</a>
+			</li>
+			<li id=menuAbout>
+				<a href="#anchAboutMe" class="menuA">About Me</a>
+			</li>
+			<li id="menuGall">
+				<a href="#anchGallery" class="menuA">Gallery</a>
+			</li>
+			<li id="menuProd">
+				<a href="#anchProducts" class="menuA">Products</a>
+			</li>
+			<li>
+				<a href="/Resume/MatthewAbrahamsresume.pdf">CV</a>
+			</li>
+			</div>
+			<div class="mobile">
+				<li>
+					<img src="images/svg/menu.svg" alt="hamMenu" id="hamburger">
+				</li>
+				<li>
+					<img src="images/svg/x.svg" alt="X" id="xOut">
+				</li>
+			</div>
+		</ul>
+		<div id="logo" class="logo">M.</div>
+	</div>
+
+
+	<div class="container">
+		<div class="infoBox">
+				<img src="images\gallery\yeet.png" alt="Picture of Me" class="avatar" id="mobile_anchPic">
+					<div class="infoTextSizing">
+						<h2 class="h2class">Matthew Abrahams</h2>
+						<p>CS Student</p>
+						<p id="msjc"><a href="//msjc.edu" target="_blank">MSJC College</a></p>
+			</div>
+
+			<div class="refLinks">
+				<div class="emailLink">
+			<a href="mailto:MatthewAbrahams14@gmail.com"> <img src="images\svg\mail.svg" alt="email"> </a>
+		</div>
+		<div class="githubLink">
+			<a href="//github.com/rrajra"> <img src="images\svg\github.svg" alt="github"> </a>
+		</div>
+		<div class="resumeLink">
+			<a href="/Resume/MatthewAbrahamsresume.pdf"> <img src="images\svg\file-text.svg" alt="resume"> </a>
+		</div>
+		</div>
+		</div>
+
+		<div class="introBox">
+			<!-- Headings -->
+			<h2 class="h1class" id="anchAboutMe">About Me</h1>
+				<h1 class="h1class">About Me</h1>
+			<p>I am a highly motivated 	software developer specializing in C# and Java. I am currently doing my general education at MSJC.</p>
+			<p>I am particularly interested in scripting and AR development.</p>
+
+			<p>You can view my recent projects on <a href="//github.com/rrajra" target="_blank">Github</a>.</p>
+			<div class="expanded">
+					
+					<p>My relevent skills include: C#, Java, JavaScript, Python, Node.JS, Electron, HTML, and CSS</p>
+					<p>As for myself, my biggest hobbies are the outdoors. One of my favorite ways to relax is to take a trip to the beach. If I'm not at the beach, you can also likely find me at either the gym or hiking outdoors.</p>
+				<div class="hiddenMore"><a> <img src="images\svg\upcarat.svg" alt="Hide" id="hideMoreCarat"> </a></div>
+			</div>
+			<div class="learnMore" id="learnEvenMore">
+				<a id="badA"> <img src="images\svg\carat.svg" alt="Learn More" id="learnMoreCarat"> </a>
+			</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="titles">
+		<div class="Gallery">
+			<h3 id="anchGallery">Gallery</h3>
+			<div class="galleryVideos">
+
+			</div>
+			<div class="galleryImages">
+				<img src="images\gallery\launchermainsmall.png" alt="Jackbox Launcher" id="myImg">
+				<img src="images\gallery\budgteermainsmall.png" alt="Budgeteer main page" id="myImg2">
+				<img src="images\gallery\scheduelyBlanksmall.png" alt="Scheduely Blank" id="myImg3">
+				<img src="images\gallery\scheduelyFilledsmall.png" alt="Scheduely Filled Out" id="myImg4">
+			</div>
+			<div class="modal" id="myModal">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="img01">
+				<div id="caption"></div>
+		</div>
+	</div>
+	</div>
+		<div class="Products">
+		<h4 id="anchProducts">Products</h4>
+		<div class="allProducts">
+
+			<div class="singleProduct">
+				<div class="productTitle">
+					<p>Left Right Center </p>
+				</div>
+			<div class="Description">
+				<p>Multiplayer iOS game. Developed in the Unity Engine using C#.</p>
+			</div>
+				<div class="downloadLink">
+					<input type="button" onclick="window.location.href='//abrahams.dev" value="Download" />
+					<input type="button" onclick="window.location.href='//github.com/rrajra/LeftCenterRight'" value="More Info" />
+				</div>
+			</div>
+
+			<div class="singleProduct">
+				<div class="productTitle">
+					<p>Budgeteer </p>
+				</div>
+			<div class="Description">
+				<p>Budgeting app developed on Electron framework. Built using Electron.</p>
+			</div>
+			<div class="downloadLink">
+				<input type="button" onclick="window.location.href='//abrahams.dev/Electron.zip';" value="Download" />
+				<input type="button" onclick="window.location.href='//github.com/rrajra/Budgeteer'" value="More Info" />
+			</div>
+			</div>
+
+			<div class="singleProduct">
+				<div class="productTitle">
+					<p>Jackbox Launcher</p>
+				</div>
+			<div class="Description">
+				<p>Sleek and modern launcher for Jackbox Games.</p>
+			</div>
+				<div class="downloadLink">
+					<input type="button" onclick="window.location.href='//abrahams.dev/JackboxLauncher.zip';" value="Download" />
+					<input type="button" onclick="window.location.href='//github.com/rrajra/JackboxLauncher'" value="More Info" />
+				</div>
+			</div>
+
+			<div class="singleProduct">
+				<div class="productTitle">
+					<p>Scheduely </p>
+				</div>
+			<div class="Description">
+				<p>Easily manage your employees & edit their schedules. Written in C#.</p>
+			</div>
+				<div class="downloadLink">
+					<input type="button" onclick="window.location.href='https://abrahams.dev';" value="Download" />
+					<input type="button" onclick="window.location.href='//github.com/rrajra/Scheduely'" value="More Info" />
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+<footer id="footer">
+</footer>
+<div class="footerr">
+	<div class="anchorBtns">
+		<p><a href="#anchAboutMe">About Me</a></p>
+		<p><a href="#anchGallery">Gallery</a></p>
+		<p><a href="#anchProducts">Products</a></p>
+		<p><a href="/Resume/MatthewAbrahamsresume.pdf">CV</a></p>
+		<p id="copyright">© 2020 Matthew Abrahams</p>
+	</div>
+	<div class="footerbtns">
+		<p><a href="#anchTop" class="topAnim"><input type="image" src="images\svg\top.svg" id="topSVG"></input>Top</a></p>
+		<p><a href="mailto:MatthewAbrahams14@gmail.com">matt@gmail.com</a></p>
+		<p><a href="callto:9516942391">951.694.2391</a></p>
+	</div>
+</div>
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+</html>

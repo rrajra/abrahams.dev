@@ -1,0 +1,134 @@
+html {
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow-x: initial !important;
+}
+a {
+	text-decoration: none;
+	color: #FF5853;
+}
+a:hover {
+	text-decoration: underline;
+}
+body {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-size: 1.3vw;
+	line-height: 1.6em;
+	background-color: #d7d8d8;
+	color: black;
+	margin: 0;
+}
+p {
+
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	font-size: 1.5em;
+}
+img {
+	color: white;
+}
+.btnleft {
+	height: 400px;
+	width: 100px;
+}
+.btnright {
+	height: 400px;
+	width: 100px;
+}
+
+.scrollingImages {
+	align-items: center;
+	text-align: center;
+	background-color: #242424;
+	padding-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.displayImages img {
+	max-width: 650px;
+	max-height: 350px;
+	min-height: 350px;
+	min-width: 500px;
+}
+.scrollingImages a {
+	text-decoration: none;
+}
+.scrollingImages button {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.scrollingImages button:hover {
+	cursor: pointer;
+}
+
+.description {
+	padding-left: 60px;
+	padding-right: 120px;
+}
+.downloadBtn {
+	align-content: center;
+	text-align: center;
+}
+.downloadBtn button{
+	align-content: center;
+
+	color: white;
+    text-decoration: none;
+    font-size: 1em;
+    
+
+    /* Background styles */
+    background-color: #FF5853;
+    cursor: pointer;
+}
+.downloadBtn button:hover {
+	    border: 1.5px solid black;
+}
+.returnPage {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+
+.footer {
+	padding-top: 5px;
+	background-color: #b0b2b2;
+	display: block;
+	line-height: 1em;
+	font-size: 2em;
+}
+.footer p{
+	margin: 0;
+	text-align: center;
+	font-size: 1vw;
+	bottom: 0px;
+	display: block;
+}
+.footerbtns {
+	display: flex;
+	flex-wrap: wrap;
+	top: 0px;
+	padding-left: 5px;
+	justify-content: center;
+}
+.footerbtns p{
+	padding-left: 15px;
+	top: 0;
+}
+.footerbtns a {
+	padding-top: 0;
+	top: 0;
+}
