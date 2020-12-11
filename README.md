@@ -2,7 +2,7 @@
 
 ![Scores Image](https://abrahams.dev/images/gallery/lighthousescores.jpg)
 ## Details 
-I have created my website with performance and accessibility in mind. By using tools such as Google Lighthouse and WAVE, I am constantly striving and working to make my site as powerful as it can be.
+I have created my [website](https://abrahams.dev) with performance and accessibility in mind. By using tools such as Google Lighthouse and WAVE, I am constantly striving and working to make my site as powerful as it can be.
 
 #### Highly Optimized
 Using Google Lighthouse, my site has receieved a performance score of 98.
